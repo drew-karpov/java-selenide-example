@@ -8,6 +8,7 @@ public class BrowserFactory {
 
     public static WebDriver getDriver() {
         String browser = System.getProperty("browser");
+        browser = "firefox";
         if (browser.equals("firefox")) {
             return new FirefoxBrowser().getFirefoxWebDriver();
         }

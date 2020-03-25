@@ -6,7 +6,7 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-group 'OpenTests'
+group 'Java-Selenide'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

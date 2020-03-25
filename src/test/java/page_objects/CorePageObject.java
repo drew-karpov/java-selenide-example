@@ -2,9 +2,7 @@ package page_objects;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.List;
 import java.util.regex.Pattern;

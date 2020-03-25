@@ -11,10 +11,7 @@ public class PropertiesFactory {
         Properties properties = new Properties();
         String target = System.getProperty("target");
         if (target == null) {
-            target = "staging";
-        }
-        else  if (target.equals("release")){
-            target = "release";
+            target = "some";
         }
         try {
             properties.load(new FileReader(new File("src/test/resources/properties/" + target + ".properties")));
